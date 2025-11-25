@@ -1,6 +1,6 @@
 about:
-  introduction: ○○自述
-  linkroll: ○○连结
+  introduction: 自白
+  linkroll: 友邻
 feed:
   address: 订阅地址
   copy:
@@ -13,27 +13,27 @@ feed:
   visit: 这是订阅源页面。访问 {title} 以获得完整的网站体验。
 home:
   heatmap:
-    empty: 无字
-    jotting: 随笔 {count} 则
-    note: 文记 {count} 篇
-  latest: 最新内容
-  prefaces: 序文一览
+    empty: 留白
+    jotting: 便条 {count} 则
+    note: 笔记 {count} 篇
+  latest: 近况
+  prefaces: 前言一览
 jotting:
-  empty: 暂无随笔
+  empty: 暂无便条
   tag: 标签
 language: 简体中文
 navigation:
-  about: 絮述
-  home: 序章
-  jotting: 随笔
-  note: 文记
-  policy: 政策
-  preface: 序文
+  about: 独白
+  home: 封面
+  jotting: 便条
+  note: 笔记
+  policy: 条款
+  preface: 前言
   subscription: 订阅
 note:
-  contents: 目录
-  empty: 暂无文记
-  series: 系列
+  contents: 索引
+  empty: 暂无笔记
+  series: 专栏
   tag: 标签
   top: 回到顶部
 read:
@@ -41,12 +41,12 @@ read:
 sensitive:
   back: 返回列表
   continue: 我已知晓，继续阅读
-  description: 本文可能包含色情、暴力、血腥或情绪触发内容。
+  description: 本文包含可能引起不适的内容（如暴力、血腥等）。
   feed: |
-    <p>本文可能包含色情、暴力、血腥或情绪触发内容。</p>
+    <p>本文包含可能引起不适的内容（如暴力、血腥等）。</p>
     <p>如需阅读，请访问<a href="{link}">原文链接</a>。</p>
   icon: 包含敏感内容
   title: 内容警告
-  warning: 若这些内容可能影响您的心理健康，请立即离开！
+  warning: 如感不适，请立即关闭页面。
 statistics: 写下 {words} 字
 theme: '主题: ThoughtLite'
