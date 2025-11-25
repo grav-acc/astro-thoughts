@@ -31,7 +31,7 @@ function Time(time?: Date | number | string, timezone: string = Time.defaultTime
 // Time namespace containing various date/time formatting and manipulation utilities
 namespace Time {
 	// Default timezone from environment configuration
-	export const defaultTimezone = import.meta.env.PUBLIC_TIMEZONE;
+	export const defaultTimezone = import.meta.env.PUBLIC_TIMEZONE || 'Asia/Shanghai';
 	// User's local timezone detected from browser/system
 	export const userTimezone = DateTime.local().zoneName;
 
