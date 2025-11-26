@@ -41,6 +41,7 @@ const tags = Array.from(new Set(jottings.flatMap(jotting => jotting.data.tags).f
 
 <Base title={t("navigation.jotting")} {locale}>
 	<main class="flex flex-col grow">
+		<h1 class="sr-only">{t("navigation.jotting")}</h1>
 		<Jotting client:load {locale} jottings={list} {tags}>
 			<Icon name="lucide:flag-triangle-right" slot="top" />
 			<Icon name="lucide:siren" title={t("sensitive.icon")} slot="sensitive" />

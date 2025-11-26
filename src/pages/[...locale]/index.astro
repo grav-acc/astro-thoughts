@@ -83,6 +83,8 @@ const { Content } = preface ? await render(preface) : ({} as any);
 			<Icon name="site-logo" size={100} is:inline />
 		</header>
 
+		<h1 class="sr-only">{t("navigation.home")} - {config.title}</h1>
+
 		{
 			preface && (
 				<section class="flex flex-col">

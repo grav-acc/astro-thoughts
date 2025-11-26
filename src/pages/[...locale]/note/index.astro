@@ -43,6 +43,7 @@ const tags = Array.from(new Set(notes.flatMap(note => note.data.tags).filter(Boo
 
 <Base title={t("navigation.note")} {locale}>
 	<main class="flex flex-col grow">
+		<h1 class="sr-only">{t("navigation.note")}</h1>
 		<Note client:load {locale} notes={list} {series} {tags}>
 			<Icon name="lucide:flag-triangle-right" slot="top" />
 			<Icon name="lucide:siren" title={t("sensitive.icon")} slot="sensitive" />
