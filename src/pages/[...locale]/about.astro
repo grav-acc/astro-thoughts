@@ -31,7 +31,7 @@ const chronicles = Object.entries<string[]>(chronicle ?? {})
 		div {
 			margin-bottom: 2rem;
 
-			h1 {
+			h2 {
 				margin-bottom: 1rem;
 
 				font-size: 1.8rem;
@@ -42,11 +42,14 @@ const chronicles = Object.entries<string[]>(chronicle ?? {})
 
 <Base title={t("navigation.about")} {locale}>
 	<main class="flex flex-col sm:flex-row justify-between gap-5">
+
+		<h1 class="sr-only">{t("navigation.about")}</h1>
+
 		<article class="flex flex-col">
 			{
 				introduction && (
 					<div>
-						<h1>{t("about.introduction")}</h1>
+						<h2>{t("about.introduction")}</h2>
 						<samp class="markdown">
 							<Introduction />
 						</samp>
@@ -56,7 +59,7 @@ const chronicles = Object.entries<string[]>(chronicle ?? {})
 			{
 				linkroll && (
 					<div>
-						<h1>{t("about.linkroll")}</h1>
+						<h2>{t("about.linkroll")}</h2>
 						<samp class="markdown">
 							<Linkroll {locale} />
 						</samp>
