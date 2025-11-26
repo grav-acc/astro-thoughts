@@ -44,24 +44,30 @@ switch (copyright.type) {
 		ccLabel = "Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International";
 		break;
 
-	default:
-		ccURL = "https://creativecommons.org/publicdomain/zero/1.0/";
-		ccLabel = "CC0 1.0 Universal";
-		break;
+		default:
+        const anchor = locale === "zh-cn" 
+            ? "#服务条款-terms-of-service" 
+            : "#terms-of-service";
+        ccURL = getRelativeLocaleUrl(locale, "policy") + anchor;
+        ccLabel = copyright.type;
+        break;
 }
 
 // Build array of Creative Commons icons based on license type
-// Start with base CC icon, then add specific license component icons
-const ccIcons = ["fa6-brands:creative-commons"];
-if (copyright.type === "CC0 1.0") {
-	// CC0 uses a special "zero" icon
-	ccIcons.push("fa6-brands:creative-commons-zero");
-} else {
-	// For other licenses, add icons based on license components
-	if (copyright.type.includes("BY")) ccIcons.push("fa6-brands:creative-commons-by"); // Attribution required
-	if (copyright.type.includes("NC")) ccIcons.push("fa6-brands:creative-commons-nc"); // Non-commercial
-	if (copyright.type.includes("SA")) ccIcons.push("fa6-brands:creative-commons-sa"); // Share-alike
-	if (copyright.type.includes("ND")) ccIcons.push("fa6-brands:creative-commons-nd"); // No derivatives
+// 初始化为空数组
+const ccIcons = [];
+// 只有当协议名称里包含 "CC" 时，才去加载 CC 图标
+if (copyright.type.includes("CC")) {
+    ccIcons.push("fa6-brands:creative-commons");
+    
+    if (copyright.type === "CC0 1.0") {
+        ccIcons.push("fa6-brands:creative-commons-zero");
+    } else {
+        if (copyright.type.includes("BY")) ccIcons.push("fa6-brands:creative-commons-by");
+        if (copyright.type.includes("NC")) ccIcons.push("fa6-brands:creative-commons-nc");
+        if (copyright.type.includes("SA")) ccIcons.push("fa6-brands:creative-commons-sa");
+        if (copyright.type.includes("ND")) ccIcons.push("fa6-brands:creative-commons-nd");
+    }
 }
 
 // Fetch notes and jottings collections to calculate total word count
@@ -123,9 +129,14 @@ const policy = await getEntry("information", `${locale}/policy`);
 			)
 		}
 		<span>|</span>
-		<a target="_blank" href={ccURL} aria-label={ccLabel} class="flex items-center gap-1">
-			{ccIcons.map(icon => <Icon name={icon} />)}
-		</a>
+		<a target="_blank" href={ccURL} aria-label={ccLabel} class="flex items-center gap-1 hover:underline">
+            {/* 逻辑判断：如果有图标就显示图标，没图标就直接显示文字 */}
+            {
+                ccIcons.length > 0 
+                ? ccIcons.map(icon => <Icon name={icon} />) 
+                : <span>{ccLabel}</span>
+            }
+        </a>
 		<span>·</span>
 		<span class="contents"><Icon name="lucide:activity" title={t("statistics", { words: totalWords })} /></span>
 		{
@@ -138,10 +149,16 @@ const policy = await getEntry("information", `${locale}/policy`);
 		}
 	</div>
 	<code class="flex items-center gap-2.5">
-		<p>Powered by</p>
-		<a href="https://astro.build/" aria-label="Astro" target="_blank" class="inline-flex"><Icon name="simple-icons:astro" /></a>
-		<a href="https://svelte.dev/" aria-label="Svelte" target="_blank" class="inline-flex"><Icon name="simple-icons:svelte" /></a>
-		<span>·</span>
-		<a href="https://github.com/tuyuritio/astro-theme-thought-lite" aria-label="Theme" target="_blank" class="inline-flex"><Icon name="simple-icons:github" title={t("theme")} inline /></a>
-	</code>
+        <p>Powered by</p>
+        <a href="https://astro.build/" aria-label="Astro" target="_blank" class="inline-flex">
+            <Icon name="simple-icons:astro" title="Astro" />
+        </a>
+        <a href="https://vercel.com/" aria-label="Vercel" target="_blank" class="inline-flex">
+            <Icon name="simple-icons:vercel" title="Vercel" />
+        </a>
+        <span>·</span>
+        <a href="https://github.com/tuyuritio/astro-theme-thought-lite" aria-label="Theme" target="_blank" class="inline-flex">
+            <Icon name="simple-icons:github" title={t("theme")} inline />
+        </a>
+    </code>
 </footer>

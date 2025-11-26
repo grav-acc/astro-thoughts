@@ -10,7 +10,7 @@ const config = siteConfig({
 	},
 	description: "Every piece of thoughts begins as a mosaic.",
 	copyright: {
-		type: "CC BY-NC-ND 4.0",
+		type: "All Rights Reserved",
 		year: "2025"
 	},
 	i18n: {
