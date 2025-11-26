@@ -50,6 +50,7 @@
 		"@swup/astro": "^1.7.0",
 		"astro": "^5.16.0",
 		"astro-icon": "^1.1.5",
+		"astro-seo": "^0.8.4",
 		"feed": "^5.1.0",
 		"hastscript": "^9.0.1",
 		"luxon": "^3.7.2",
