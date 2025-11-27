@@ -119,7 +119,7 @@ const { Content } = preface ? await render(preface) : ({} as any);
 							</div>
 						</div>
 						<time datetime={latest.data.timestamp.toISOString()} class="c-remark font-mono text-xs">
-							{Time(latest.data.timestamp)}
+							{Time.date(latest.data.timestamp)}
 						</time>
 					</blockquote>
 				</footer>

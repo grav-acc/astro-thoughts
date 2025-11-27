@@ -120,7 +120,7 @@ onMount(() => {
 						{#if note.data.series}<button onclick={() => chooseSeries(note.data.series, true)}>{note.data.series}</button><b>|</b>{/if}
 						<a href={getRelativeLocaleUrl(locale, `/note/${monolocale ? note.id : note.id.split("/").slice(1).join("/")}`)} class="link">{note.data.title}</a>
 					</div>
-					<time datetime={note.data.timestamp.toISOString()} class="font-mono text-2.6 c-remark">{Time(note.data.timestamp)}</time>
+					<time datetime={note.data.timestamp.toISOString()} class="font-mono text-2.6 c-remark">{Time.date(note.data.timestamp)}</time>
 				</div>
 				<span class="flex items-center gap-1 sm:ml-a c-remark">
 					{#each note.data.tags as tag}
