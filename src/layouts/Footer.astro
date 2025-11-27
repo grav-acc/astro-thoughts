@@ -44,13 +44,12 @@ switch (copyright.type) {
 		ccLabel = "Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International";
 		break;
 
-		default:
-        const anchor = locale === "zh-cn" 
-            ? "#服务条款-terms-of-service" 
-            : "#terms-of-service";
-        ccURL = getRelativeLocaleUrl(locale, "policy") + anchor;
-        ccLabel = copyright.type;
-        break;
+	default: {
+		const anchor = locale === "zh-cn" ? "#服务条款-terms-of-service" : "#terms-of-service";
+		ccURL = getRelativeLocaleUrl(locale, "policy") + anchor;
+		ccLabel = copyright.type;
+		break;
+	}
 }
 
 // Build array of Creative Commons icons based on license type
@@ -58,16 +57,16 @@ switch (copyright.type) {
 const ccIcons = [];
 // 只有当协议名称里包含 "CC" 时，才去加载 CC 图标
 if (copyright.type.includes("CC")) {
-    ccIcons.push("fa6-brands:creative-commons");
-    
-    if (copyright.type === "CC0 1.0") {
-        ccIcons.push("fa6-brands:creative-commons-zero");
-    } else {
-        if (copyright.type.includes("BY")) ccIcons.push("fa6-brands:creative-commons-by");
-        if (copyright.type.includes("NC")) ccIcons.push("fa6-brands:creative-commons-nc");
-        if (copyright.type.includes("SA")) ccIcons.push("fa6-brands:creative-commons-sa");
-        if (copyright.type.includes("ND")) ccIcons.push("fa6-brands:creative-commons-nd");
-    }
+	ccIcons.push("fa6-brands:creative-commons");
+
+	if (copyright.type === "CC0 1.0") {
+		ccIcons.push("fa6-brands:creative-commons-zero");
+	} else {
+		if (copyright.type.includes("BY")) ccIcons.push("fa6-brands:creative-commons-by");
+		if (copyright.type.includes("NC")) ccIcons.push("fa6-brands:creative-commons-nc");
+		if (copyright.type.includes("SA")) ccIcons.push("fa6-brands:creative-commons-sa");
+		if (copyright.type.includes("ND")) ccIcons.push("fa6-brands:creative-commons-nd");
+	}
 }
 
 // Fetch notes and jottings collections to calculate total word count
@@ -104,7 +103,8 @@ const jottingWords = (await Promise.all(jottings.map(async jotting => (await ren
 const totalWords = noteWords + jottingWords;
 
 // Check if policy file exists for current locale
-const policy = await getEntry("information", `${locale}/policy`);
+const localePrefix = monolocale ? "" : `${locale}/`;
+const policy = await getEntry("information", `${localePrefix}policy`);
 ---
 
 <footer class="flex flex-col sm:flex-row items-center justify-between gap-2 mt-8 mb-5 sm:mb-3 text-size-sm font-mono">
