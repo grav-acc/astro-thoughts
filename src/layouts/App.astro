@@ -4,8 +4,8 @@ const { title, subtitle, description, author, article } = Astro.props;
 
 // Locale-specific Noto Serif font mappings for Google Fonts
 const notoFonts: Record<string, string> = {
-    en: "https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap",
-    "zh-cn": "https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&display=swap"
+	en: "https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap",
+	"zh-cn": "https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&display=swap"
 };
 
 // 1. 生成 canonicalURL
@@ -58,6 +58,7 @@ const fullTitle = subtitle ? `${subtitle} | ${title}` : title;
 
         {Astro.currentLocale && notoFonts[Astro.currentLocale] && <link rel="stylesheet" href={notoFonts[Astro.currentLocale]} />}
 
+        <script defer src="https://stats.demosaic.org/script.js" data-website-id="209d4e84-8e36-4a82-887e-fff1f965ca1f"></script>
         <script is:inline>
             var theme = localStorage.getItem("theme");
             if (theme) document.documentElement.dataset.theme = theme;
