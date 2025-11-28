@@ -8,22 +8,24 @@ We value your privacy and are committed to collecting only the minimum amount of
 
 ## Privacy Policy
 
-> **Last Updated**: November 25, 2025
+> **Last Updated**: November 28, 2025
 
 ### 1. Data Collection & Usage
-This site is a **Static Site**. We do not use a backend database, nor do we require user registration. The information we collect is strictly limited to enhancing your local browsing experience.
+This site is a **Static Site**. We do not use a backend database, nor do we require user registration. The information we collect is strictly limited to enhancing your local browsing experience and basic site performance analysis.
 
 | Data Type | Method | Purpose | Storage Location |
 | :--- | :--- | :--- | :--- |
 | **Theme Settings** | User toggled | To save your preference for Light/Dark mode | Local Browser (localStorage) |
 | **UI State** | Auto-saved | To remember interface states (e.g., sidebar collapse) | Local Browser (localStorage) |
+| **Access Statistics** | Automated collection | Anonymous site traffic and content popularity statistics | Statistics Server (stats.demosaic.org) |
 
-**Note on localStorage**:
-The data mentioned above is stored entirely on your device (browser) and is **never** uploaded to our servers. You can delete this data at any time by clearing your browser cache.
+**Note on Data Storage**:
+* **Local Data**: Theme settings and UI state data are stored entirely on your device (browser) and are **never** uploaded to our servers. You can delete this data at any time by clearing your browser cache.
+* **Statistical Data**: This site uses **Umami Analytics** for access statistics. This is an open-source, privacy-focused analytics tool. It **does not use cookies**, does not collect personally identifiable information (PII), and anonymizes your IP address. Statistical data is used solely for analyzing website traffic trends to help the author optimize content.
 
 ### 2. Data Protection
 * **HTTPS Encryption**: This site uses HTTPS for secure transmission. All data exchanged between you and this site is encrypted via TLS/SSL to prevent eavesdropping or tampering.
-* **No Third-Party Tracking**: This site does not implement any advertising scripts or third-party commercial analytics tools used for cross-site tracking.
+* **Privacy-First Statistics**: This site **does not** implement Google Analytics or other commercial advertising scripts used for cross-site tracking. The Umami analytics service used is independently deployed and managed by this site; data is fully controlled, not shared with third-party advertisers, and not used for user profiling.
 
 ### 3. Data Sharing & Disclosure
 We do not sell, lease, or share your data with any third parties. We may process relevant information only in the following rare circumstances:
