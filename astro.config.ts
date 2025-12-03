@@ -1,5 +1,5 @@
 // @ts-check
-import { defineConfig, passthroughImageService } from "astro/config";
+import { defineConfig } from "astro/config";
 import yaml from "@rollup/plugin-yaml";
 import mdx from "@astrojs/mdx";
 import sitemap from "@astrojs/sitemap";
@@ -48,9 +48,6 @@ export default defineConfig({
 			redirectToDefaultLocale: false,
 			prefixDefaultLocale: false
 		}
-	},
-	image: {
-		service: passthroughImageService()
 	},
 	markdown: {
 		remarkPlugins: [
@@ -109,8 +106,8 @@ export default defineConfig({
 		}
 	},
 	vite: {
-		// Workaround for https://github.com/withastro/astro/issues/14692
 		optimizeDeps: {
+			// Workaround for https://github.com/withastro/astro/issues/14692
 			include: ["picocolors"]
 		},
 		// @ts-expect-error
