@@ -1,6 +1,6 @@
 # Privacy Policy & Terms of Service
 
-This is the Privacy Policy and Terms of Service for **Thoughts.Mosaic** (hereinafter referred to as "this site"). This site is operated by **Bard's (demosaic.org)** and serves as a repository for fragmented thoughts and memos.
+This is the Privacy Policy and Terms of Service for **Thoughts.Mosaic** (hereinafter referred to as "this site"). This site is operated by **The DeMosaic (demosaic.org)** and serves as a repository for fragmented thoughts and memos.
 
 We value your privacy and are committed to collecting only the minimum amount of data necessary to maintain basic service operations.
 

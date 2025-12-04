@@ -1,3 +1,5 @@
-**这里（Thoughts.Mosaic）** 是我用来存放我的Thoughts的地方，内容可能没有那么正式，主要偏向于Memo风格的记录。你也可以查阅[我的博客（Bard's）](https://articles.demosaic.org/)，上面会分享一些我的其他想法。
+**Thoughts.Mosaic** 是我用来存放我的Thoughts的地方，内容可能没有那么正式，主要偏向于Memo风格的记录。你也可以查阅[我的博客](https://articles.demosaic.org/)，上面会分享一些我的其他想法。
+
+不更新的时候，我可能在这里 ↓
 
 [![Exophase Gamercard](https://card.exophase.com/2/0/309962.png?1762499768)](https://www.exophase.com/user/stoic/)
