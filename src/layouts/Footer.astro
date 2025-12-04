@@ -148,6 +148,24 @@ const policy = await getEntry("information", `${localePrefix}policy`);
 			]
 		}
 	</div>
+
+	{/* 新增：外链部分 */}
+	<div class="flex items-center gap-2 text-0.8rem">
+		{/* 桌面端显示分隔符，移动端隐藏 */}
+		<span class="hidden sm:inline opacity-50">/</span>
+		<p>Also on</p>
+		<a href="https://stories.demosaic.org/" target="_blank" rel="noopener noreferrer" aria-label="Medium" class="inline-flex hover:text-primary transition-colors">
+			<Icon name="simple-icons:medium" title="Medium" />
+		</a>
+		<a href="https://letters.demosaic.org/" target="_blank" rel="noopener noreferrer" aria-label="Substack" class="inline-flex hover:text-primary transition-colors">
+			<Icon name="simple-icons:substack" title="Substack" />
+		</a>
+		<span>·</span>
+		<a href="https://articles.demosaic.org/" target="_blank" rel="noopener noreferrer" aria-label="Ghost" class="inline-flex hover:text-primary transition-colors">
+			<Icon name="simple-icons:ghost" title="Blog" />
+		</a>
+	</div>
+
 	<code class="flex items-center gap-2.5">
         <p>Powered by</p>
         <a href="https://astro.build/" aria-label="Astro" target="_blank" class="inline-flex">
