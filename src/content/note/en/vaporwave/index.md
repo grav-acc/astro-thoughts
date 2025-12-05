@@ -4,7 +4,7 @@ title: Did Vaporwave Ever Exist?
 
 timestamp: 2025-12-05 10:41:54+08:00
 
-series: Culture
+series: Debate
 
 tags: [Vaporwave, Hauntology]
 
@@ -20,7 +20,7 @@ It never “lived” in the physical world; it merely wandered as a “ghost” 
 
 # I. **Forgotten Cassettes and Corrupted MP3 Files**
 
-> It does exist.
+> **It does exist.**
 
 This unique cultural genre was born in internet communities like Tumblr and Reddit in the early 2010s. Its name borrows from the computer term “Vaporware,” referring to software or hardware that is heavily advertised but never actually released. This name serves as a direct metaphor for the genre’s core themes of unfulfilled promises and essential “emptiness.”
 
@@ -32,7 +32,7 @@ In terms of creative logic, this is a typical form of “textual poaching,” es
 
 # II. **The Dislocation of “Time” and the Fabrication of “Space”**
 
-> The ghost of a “dead future.”
+> **The ghost of a “dead future.”**
 
 From a temporal dimension, this genre embodies the concept of “Hauntology” proposed by Mark Fisher—the mourning of a *“cancelled future”* that we never truly arrived at. The 80s and 90s scenes it constructs (often Tokyo or Hong Kong) are filled with optimistic promises of a technological utopia. However, when young people in the 21st century look back, they find that this promise was never fulfilled; high technology has brought anxiety rather than liberation. Therefore, this emotion is not nostalgia for real history (the past that included a gritty reality), but a longing for that historical moment when we “believed tomorrow would be better”—an extreme manifestation of “Anemoia” (nostalgia for a time one has never known).
 
