@@ -1,8 +1,6 @@
 # Privacy Policy & Terms of Service
 
-This is the Privacy Policy and Terms of Service for **Thoughts.Mosaic** (hereinafter referred to as "this site"). This site is operated by **The DeMosaic (demosaic.org)** and serves as a repository for fragmented thoughts and memos.
-
-We value your privacy and are committed to collecting only the minimum amount of data necessary to maintain basic service operations.
+This is the Privacy Policy and Terms of Service for **Thoughts.Mosaic** (hereinafter referred to as "this site"). We value your privacy and are committed to collecting only the minimum amount of data necessary to maintain basic service operations.
 
 ---
 
@@ -73,4 +71,4 @@ This site may contain links to third-party websites (such as GitHub, Wikipedia, 
 ---
 
 **Contact**
-If you have any questions regarding this policy, you can reach me via the contact methods provided on the main site: [demosaic.org](https://articles.demosaic.org/about/).
+If you have any questions regarding this policy, you can reach me via the contact methods provided on this page: [demosaic.org](https://articles.demosaic.org/about/).

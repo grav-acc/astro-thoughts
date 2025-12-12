@@ -1,8 +1,6 @@
 # 隐私政策与服务条款
 
-这里是 **Thoughts.Mosaic**（以下简称“本站”）的隐私权保护声明与服务条款。本站由 **The DeMosaic (demosaic.org)** 运营，主要用于记录碎片化思考与 Memo。
-
-本站高度重视您的隐私，并承诺仅收集维持服务基础运行所需的最小化数据。
+这里是 **Thoughts.Mosaic**（以下简称“本站”）的隐私权保护声明与服务条款。本站高度重视您的隐私，并承诺仅收集维持服务基础运行所需的最小化数据。
 
 ---
 
@@ -73,4 +71,4 @@
 ---
 
 **联系方式**
-如果您对本政策有任何疑问，可以通过主站 [demosaic.org](https://articles.demosaic.org/about/) 提供的联系方式找到我。
+如果您对本政策有任何疑问，可以通过这个页面 [demosaic.org](https://articles.demosaic.org/about/) 提供的联系方式找到我。
