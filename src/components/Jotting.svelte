@@ -88,7 +88,7 @@ onMount(() => {
 					<span class="flex items-center gap-1">
 						{#if jotting.data.top > 0}<span>{@render top()}</span>{/if}
 						{#if jotting.data.sensitive}<span>{@render sensitive()}</span>{/if}
-						<a href={getRelativeLocaleUrl(locale, `/jotting/${monolocale ? jotting.id : jotting.id.split("/").slice(1).join("/")}`)} class="line-height-normal c-primary font-600 link truncate">{jotting.data.title}</a>
+						<a href={getRelativeLocaleUrl(locale, `/${monolocale ? jotting.id : jotting.id.split("/").slice(1).join("/")}`)} class="line-height-normal c-primary font-600 link truncate">{jotting.data.title}</a>
 					</span>
 					<span class="flex gap-1">
 						{#each jotting.data.tags as tag}
