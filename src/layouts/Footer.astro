@@ -123,12 +123,12 @@ const policy = await getEntry("information", `${localePrefix}policy`);
 			) : !author.link ? (
 				<span>{author.name}</span>
 			) : (
-				<a href={author.link} target="_blank" rel="noopener noreferrer">
+				<a href={ccURL} target="_blank" rel="noopener noreferrer">
 					{author.name}
 				</a>
 			)
 		}
-		<span>·</span>
+		<!-- <span>·</span>
 		<a target="_blank" href={ccURL} aria-label={ccLabel} class="flex items-center gap-1 hover:underline">
             {/* 逻辑判断：如果有图标就显示图标，没图标就直接显示文字 */}
             {
@@ -136,7 +136,7 @@ const policy = await getEntry("information", `${localePrefix}policy`);
                 ? ccIcons.map(icon => <Icon name={icon} />) 
                 : <span>{ccLabel}</span>
             }
-        </a>
+        </a> -->
 		<span>·</span>
 		<span class="contents"><Icon name="lucide:activity" title={t("statistics", { words: totalWords })} /></span>
 		{
@@ -166,7 +166,7 @@ const policy = await getEntry("information", `${localePrefix}policy`);
 		</a>
 	</div>
 
-	<code class="flex items-center gap-2.5">
+	<!-- <code class="flex items-center gap-2.5">
         <p>Powered by</p>
         <a href="https://astro.build/" aria-label="Astro" target="_blank" class="inline-flex">
             <Icon name="simple-icons:astro" title="Astro" />
@@ -178,5 +178,5 @@ const policy = await getEntry("information", `${localePrefix}policy`);
         <a href="https://github.com/tuyuritio/astro-theme-thought-lite" aria-label="Theme" target="_blank" class="inline-flex">
             <Icon name="simple-icons:github" title={t("theme")} inline />
         </a>
-    </code>
+    </code> -->
 </footer>

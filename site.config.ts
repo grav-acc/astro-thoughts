@@ -4,7 +4,7 @@ const config = siteConfig({
 	title: "Thoughts.Mosaic",
 	prologue: "Every piece of thoughts\nbegins as a mosaic.",
 	author: {
-		name: "Bard",
+		name: "CHEN ZHENG",
 		email: "contact@demosaic.org",
 		link: "https://demosaic.org"
 	},
