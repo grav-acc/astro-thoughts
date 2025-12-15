@@ -119,7 +119,21 @@ export default defineConfig({
 	integrations: [
 		svelte(),
 		mdx(),
-		sitemap(),
+		sitemap({
+			// 在这里对进入 sitemap 的 URL 进行最终“整容”
+			serialize(item) {
+				// 移除 .html
+				item.url = item.url.replace(/\.html$/, "");
+
+				// 严格要求无尾斜杠，也可以移除末尾斜杠
+				// 根路径不能变空
+				if (item.url.endsWith("/") && item.url !== "https://memo.demosaic.org/") {
+					item.url = item.url.slice(0, -1);
+				}
+
+				return item;
+			}
+		}),
 		swup({
 			globalInstance: true,
 			preload: false,
