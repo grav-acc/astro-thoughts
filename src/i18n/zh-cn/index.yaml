@@ -15,7 +15,7 @@ home:
   heatmap:
     empty: 留白
     jotting: 便条 {count} 则
-    note: 笔记 {count} 篇
+    note: 虚构 {count} 篇
   latest: 近况
   prefaces: 前言一览
 jotting:
@@ -26,13 +26,13 @@ navigation:
   about: 独白
   home: 封面
   jotting: 便条
-  note: 笔记
+  note: 虚构
   policy: 条款
   preface: 前言
   subscription: 订阅
 note:
   contents: 索引
-  empty: 暂无笔记
+  empty: 暂无虚构内容
   series: 专栏
   tag: 标签
   top: 回到顶部

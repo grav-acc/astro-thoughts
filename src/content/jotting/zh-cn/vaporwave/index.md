@@ -6,7 +6,7 @@ timestamp: 2025-12-05 10:41:54+08:00
 
 series: 讨论
 
-tags: [蒸汽波, 幽灵学]
+tags: [幽灵学]
 
 description: “哀悼一个我们从未抵达的未来”
 

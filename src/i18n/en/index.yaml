@@ -17,7 +17,7 @@ home:
   heatmap:
     empty: No words
     jotting: '{count} jottings'
-    note: '{count} notes'
+    note: '{count} fictions'
   latest: Latest
   prefaces: Prefaces
 jotting:
@@ -28,13 +28,13 @@ navigation:
   about: About
   home: Home
   jotting: Jotting
-  note: Note
+  note: Fiction
   policy: Policy
   preface: Preface
   subscription: Subscription
 note:
   contents: Contents
-  empty: No notes available
+  empty: No fictions available
   series: Series
   tag: Tag
   top: To Top

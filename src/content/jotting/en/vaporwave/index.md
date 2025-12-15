@@ -6,7 +6,7 @@ timestamp: 2025-12-05 10:41:54+08:00
 
 series: Debate
 
-tags: [Vaporwave, Hauntology]
+tags: [Hauntology]
 
 description: “Mourning a future we never arrived at.”
 
