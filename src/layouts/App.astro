@@ -1,6 +1,7 @@
 ---
 import { SEO } from "astro-seo";
 import { getRelativeLocaleUrl } from "astro:i18n";
+import siteConfig from "../../site.config";
 
 const { title, subtitle, description, author, article } = Astro.props;
 
@@ -36,6 +37,46 @@ const zhUrlPath = clean(getRelativeLocaleUrl("zh-cn", i18nSlug));
 const enUrlPath = clean(getRelativeLocaleUrl("en", i18nSlug));
 const zhUrl = new URL(zhUrlPath || "/", Astro.site).href;
 const enUrl = new URL(enUrlPath || "/", Astro.site).href;
+
+// 构建结构化数据 Schema
+let schema = null;
+
+if (article) {
+	schema = {
+		"@context": "https://schema.org",
+		"@type": "Article",
+		publisher: {
+			"@type": "Organization",
+			name: siteConfig.title,
+			logo: {
+				"@type": "ImageObject",
+				url: new URL("/favicon-96x96.png", Astro.site).href
+			}
+		},
+		author: {
+			"@type": "Person",
+			name: author || siteConfig.author.name,
+			url: siteConfig.author.link,
+			image: {
+				"@type": "ImageObject",
+				url: new URL("/favicon-96x96.png", Astro.site).href
+			}
+		},
+		headline: title,
+		url: canonicalURL,
+		datePublished: article.timestamp.toISOString(),
+		dateModified: article.modified ? article.modified.toISOString() : article.timestamp.toISOString(),
+		image: {
+			"@type": "ImageObject",
+			url: ogImage
+		},
+		description: description,
+		mainEntityOfPage: {
+			"@type": "WebPage",
+			"@id": canonicalURL
+		}
+	};
+}
 ---
 
 <html lang={Astro.currentLocale}>
@@ -67,6 +108,7 @@ const enUrl = new URL(enUrlPath || "/", Astro.site).href;
             }}
         />
 
+
         <link rel="alternate" hreflang="zh-cn" href={zhUrl} />
         <link rel="alternate" hreflang="en" href={enUrl} />
         <link rel="alternate" hreflang="x-default" href={enUrl} />
@@ -88,6 +130,10 @@ const enUrl = new URL(enUrlPath || "/", Astro.site).href;
         <link rel="stylesheet" href="https://fontsapi.zeoseven.com/442/main/result.css" crossorigin />
         <link rel="stylesheet" href="https://fontsapi.zeoseven.com/556/main/result.css" crossorigin />
         <link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.4/katex.min.css" onload="this.onload=null;this.rel='stylesheet'" />
+
+        {schema && (
+            <script type="application/ld+json" set:html={JSON.stringify(schema)} is:inline></script>
+        )}
 
         {Astro.currentLocale && notoFonts[Astro.currentLocale] && <link rel="stylesheet" href={notoFonts[Astro.currentLocale]} />}
 
