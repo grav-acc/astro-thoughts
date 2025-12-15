@@ -62,7 +62,7 @@ if (article) {
 				url: new URL("/favicon-96x96.png", Astro.site).href
 			}
 		},
-		headline: title,
+		headline: subtitle,
 		url: canonicalURL,
 		datePublished: article.timestamp.toISOString(),
 		dateModified: article.modified ? article.modified.toISOString() : article.timestamp.toISOString(),
