@@ -42,6 +42,9 @@ export default defineConfig({
 	compressHTML: false,
 	site: "https://memo.demosaic.org",
 	trailingSlash: "never",
+	build: {
+		format: "file"
+	},
 	i18n: {
 		...siteConfig.i18n,
 		routing: {
