@@ -9,11 +9,16 @@ const notoFonts: Record<string, string> = {
 	"zh-cn": "https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&display=swap"
 };
 
-const canonicalURL = new URL(Astro.url.pathname, Astro.site).href;
+// 1. 创建一个清理后的路径：移除 .html 后缀，并移除可能的末尾斜杠
+const cleanPath = Astro.url.pathname.replace(/\.html$/, "").replace(/\/$/, "");
+
+// 2. 使用清理后的路径生成 canonicalURL
+const canonicalURL = new URL(cleanPath || "/", Astro.site).href;
 
 const fullTitle = subtitle ? `${subtitle} | ${title}` : title;
 
-const ogImage = article ? new URL(`${Astro.url.pathname.replace(/\/$/, "")}/graph.png`, Astro.site).href : new URL("/graph.png", Astro.site).href;
+// 3. 使用清理后的路径生成 ogImage (避免出现 /about.html/graph.png 这种错误路径)
+const ogImage = article ? new URL(`${cleanPath}/graph.png`, Astro.site).href : new URL("/graph.png", Astro.site).href;
 ---
 
 <html lang={Astro.currentLocale}>
