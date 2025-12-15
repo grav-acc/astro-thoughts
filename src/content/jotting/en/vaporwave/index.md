@@ -18,7 +18,7 @@ The answer holds a great deal of tension: as a **musical genre**, it physically 
 
 It never “lived” in the physical world; it merely wandered as a “ghost” within the internet.
 
-# I. **Forgotten Cassettes and Corrupted MP3 Files**
+## I. **Forgotten Cassettes and Corrupted MP3 Files**
 
 > **It does exist.**
 
@@ -30,7 +30,7 @@ In terms of creative logic, this is a typical form of “textual poaching,” es
 
 ![Vektroid (aka Macintosh Plus) released “Floral Shoppe”](floral-shoppe.webp "Vektroid (aka Macintosh Plus) released “Floral Shoppe”")
 
-# II. **The Dislocation of “Time” and the Fabrication of “Space”**
+## II. **The Dislocation of “Time” and the Fabrication of “Space”**
 
 > **The ghost of a “dead future.”**
 
@@ -40,7 +40,7 @@ In the spatial dimension, Adam Harper describes it as “pop-art of the virtual 
 
 In the ontological dimension, this is a “simulacrum” borrowing from Jean Baudrillard’s view: a “copy without an original.” It is replete with “Cyber-Orientalism” elements—such as Japanese kana and Traditional Chinese characters—which are not authentic linguistic expressions but a “Hyperreality” constructed by the Western gaze through internet filters. For creators, these characters are more like exotic decorative symbols used to build an ideal state in a parallel world, rather than a reflection of reality.
 
-# III. “Antidote” to the Modern Dilemma?
+## III. “Antidote” to the Modern Dilemma?
 
 > **Why would a group of young people born after 2010 suddenly become obsessed with “discarded music” from the 1980s?**
 
@@ -48,7 +48,7 @@ On an economic level, this musical form acts as a medium for “electronic necro
 
 At the same time, it is also a cultural resistance against modern “accelerationism.” Modern society imposes demands of “speed,” “efficiency,” and “always-on” connectivity, trapping individuals in Max Weber’s “iron cage” of rationality. The core of Vaporwave lies precisely in “deceleration”; it creates a “time detached from time.” In this unique space, the originally unstoppable pace of progress is intentionally disrupted, allowing exhausted urbanites to detach from endless competition and regain the right to “daydream.”
 
-# IV. A Life Philosophy
+## IV. A Life Philosophy
 
 > **Vaporwave is not just nostalgia; it offers a new philosophy of life.**
 
@@ -56,7 +56,7 @@ This aesthetic embodies a unique “digital Wabi-Sabi.” Against the backdrop o
 
 Simultaneously, it constructs a “gentle eschatology.” Unlike the violent and dark endings in traditional cognition, the “post-human” scene depicted here is serene, pink, and even accompanied by imagery of dolphins. **In this imagination, even if human civilization has ended, the escalators in the mall are still running, and holographic advertisements are still flickering lonely.** This is a kind of “Cyber-Stoicism” that cuts off the obsession with linear “progress,” locking time forever in the most comfortable and pleasant second through an infinite Loop, allowing people to immerse themselves in a purposeless happiness.
 
-# Final Thoughts
+## Final Thoughts
 
 If one must answer “Where does Vaporwave exist?”, the answer is: **It exists in the cracks of reality.**
 
@@ -65,7 +65,7 @@ It is a spiritual creation of internet natives facing the dual dilemma of “sta
 Its ultimate value lies in providing an extremely elegant “exit mechanism”:
 It tells us that you don’t have to participate in this game of infinite growth; you can hide in that looping cycle, on the ruins of the future, watching the eternal pink sunset, even if only for three minutes.
 
-# References
+## References
 
 **Born, G., & Haworth, C.** (2017). From Microsound To Vaporwave: Internet-Mediated Music, Online Methods, And Genre. _Music and Letters_, 98(4), 601-647.
 

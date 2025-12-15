@@ -6,7 +6,7 @@ tags: [Wine]
 description: A Guide to Getting Tipsy
 toc: true
 ---
-# Part 1. Look, Smell, Taste
+## Part 1. Look, Smell, Taste
 
 * **Look:** Is it translucent like a gemstone, or deep like ink? (Skin thickness of the grape variety)
 * **Smell:** Don’t swirl the glass; smell it first (static aroma); swirl it and smell again (released aroma). Look for any familiar fruit scents?
@@ -15,14 +15,14 @@ toc: true
   * Do your gums feel dry? (Tannin)
   * Does it feel like drinking whole milk or water in your mouth? (Body)
 
-# Part 2. Deconstructing a Sip
+## Part 2. Deconstructing a Sip
 
 * **Tannin:** After drinking, do your gums and tongue coating feel dry and astringent? Like drinking strong tea. Tannins support the aging potential and structural sense of red wine.
 * **Acidity:** After drinking, do the sides of your tongue salivate crazily? The more saliva, the higher the acidity. Acidity makes the wine lively and not cloying.
 * **Body:** The weight of the liquid in the mouth. Is it like drinking water (light body), skim milk (medium body), or whole milk (full body)?
 * **Aroma:** Are there familiar fruit scents? Is it fresh strawberry or stewed black plum?
 
-# Part 3. About Grapes
+## Part 3. About Grapes
 
 If you can’t remember the characteristics of the varieties, try personifying them first.
 
@@ -35,16 +35,16 @@ If you can’t remember the characteristics of the varieties, try personifying t
 * **Riesling: The STEM Scholar with Glasses**
   * *Characteristics:* Extremely high acidity, precise like a scalpel. After aging, it develops a unique “petrol note,” which is actually a symbol of high quality.
 
-# Part 4. Styles and Variables
+## Part 4. Styles and Variables
 
-## 1. Old World vs. New World
+### 1. Old World vs. New World
 
 * **Old World:** Mainly Europe (France, Italy, Spain)
   * *Style:* Fallen aristocracy. Emphasizes “Terroir,” “Restraint,” and “Food Pairing.” Labels often list the **region** (e.g., Bordeaux); you have to understand it, it doesn’t cater to you.
 * **New World:** USA, Australia, Chile, etc.
   * *Style:* California sunshine boy. Emphasizes “Technology,” “Fruitiness,” and “Boldness.” Gives you a big hug right away (intense fruit flavor). Labels often list the **variety** (e.g., Cabernet Sauvignon).
 
-## 2. Sky, Earth, Human
+### 2. Sky, Earth, Human
 
 * **Sky (Climate):**
   * Hot: High alcohol, low acidity, ripe fruit flavor (like jam).
@@ -52,7 +52,7 @@ If you can’t remember the characteristics of the varieties, try personifying t
 * **Earth (Soil):** Barren land actually produces good wine. Vines need to struggle to take root in order to produce fruit with concentrated flavor.
 * **Human (Winemaking):** Oak barrels are the “filters” added to wine. It brings flavors of vanilla, toast, and cream.
 
-# Part 5. Cold Facts about “Drinking”
+## Part 5. Cold Facts about “Drinking”
 
 * **Why do we clink glasses?**
   * *Legend Version:* To prevent poisoning in the Middle Ages, clinking vigorously splashed liquid into each other’s cups, “if we die, we die together.”
@@ -67,9 +67,9 @@ If you can’t remember the characteristics of the varieties, try personifying t
 * **Sulfites are Not Poison:**
   * It is an antioxidant and preservative. Without it, you’d be drinking grape vinegar. A bag of candied fruit likely contains several times more sulfites than a bottle of red wine.
 
-# Part 6. Advanced Learning To-Do
+## Part 6. Advanced Learning To-Do
 
-## 1. Book Recommendations (Bibliotherapy)
+### 1. Book Recommendations (Bibliotherapy)
 
 **Beginner Essentials:**
 
@@ -89,12 +89,12 @@ If you can’t remember the characteristics of the varieties, try personifying t
 * **“Adventures on the Wine Route” (Kermit Lynch)**: Classic road-trip style wine book, relaxed and fun.
 * **“Godforsaken Grapes”**: If you are interested in those obscure, strange, forgotten grape varieties, read this.
 
-## 2. Podcasts & Websites
+### 2. Podcasts & Websites
 
 * **Podcast:** **“Wine for Normal People”**. Rated as more accessible than the book of the same name, trustworthy information, perfect for beginners to train their ears.
 * **Site/Social:** **Wine Folly**. Besides the books, their website and Instagram are also the best sources for fragmented learning.
 
-## 3. Unorthodox Training Methods
+### 3. Unorthodox Training Methods
 
 * **Fruit Comparison Method:** Buy blueberries, blackberries, and plums to eat, remember the taste, then drink water to rinse, and then drink red wine. This is the fastest way to train the brain to connect “label descriptions” with “real taste.”
 * **From Sweet to Dry:** Can’t stand the bitterness of dry red? Start with **Roscato**, **Brachetto**, or Californian **Zinfandel** and transition slowly.
