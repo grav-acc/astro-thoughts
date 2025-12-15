@@ -1,5 +1,6 @@
 ---
 import { SEO } from "astro-seo";
+import { getRelativeLocaleUrl } from "astro:i18n";
 
 const { title, subtitle, description, author, article } = Astro.props;
 
@@ -19,6 +20,19 @@ const fullTitle = subtitle ? `${subtitle} | ${title}` : title;
 
 // 3. 使用清理后的路径生成 ogImage (避免出现 /about.html/graph.png 这种错误路径)
 const ogImage = article ? new URL(`${cleanPath}/graph.png`, Astro.site).href : new URL("/graph.png", Astro.site).href;
+
+// 获取当前路径的“纯净版” (Slug)，用于生成多语言链接
+// 如果当前在英文版 (如 /en/about)，去掉 /en 得到 /about
+// 如果当前在中文版 (如 /about)，直接使用 /about
+let i18nSlug = Astro.url.pathname;
+if (Astro.currentLocale === "en" && i18nSlug.startsWith("/en")) {
+	i18nSlug = i18nSlug.replace(/^\/en/, "") || "/";
+}
+
+// 生成绝对路径 (Astro.site 是在配置里写的URL)
+// 注意：Astro 的 getRelativeLocaleUrl 会自动处理 prefixDefaultLocale: false 的配置
+const zhUrl = new URL(getRelativeLocaleUrl("zh-cn", i18nSlug), Astro.site).href;
+const enUrl = new URL(getRelativeLocaleUrl("en", i18nSlug), Astro.site).href;
 ---
 
 <html lang={Astro.currentLocale}>
@@ -49,6 +63,10 @@ const ogImage = article ? new URL(`${cleanPath}/graph.png`, Astro.site).href : n
                 } : undefined,
             }}
         />
+
+        <link rel="alternate" hreflang="zh-cn" href={zhUrl} />
+        <link rel="alternate" hreflang="en" href={enUrl} />
+        <link rel="alternate" hreflang="x-default" href={enUrl} />
 
         <meta name="viewport" content="width=device-width" />
         <meta name="generator" content={Astro.generator} />
