@@ -41,12 +41,12 @@ read:
 sensitive:
   back: 返回列表
   continue: 我已知晓，继续阅读
-  description: 本文包含可能引起不适的内容（如暴力、血腥等）。
+  description: 本文主要为个人生活的碎片思考与日记式记录，无普世参考价值。
   feed: |
-    <p>本文包含可能引起不适的内容（如暴力、血腥等）。</p>
+    <p>本文/本栏目主要为个人生活的碎片思考与日记式记录，无普世参考价值。请在阅读前确认你是否真的对其感兴趣。</p>
     <p>如需阅读，请访问<a href="{link}">原文链接</a>。</p>
   icon: 包含敏感内容
-  title: 内容警告
-  warning: 如感不适，请立即关闭页面。
+  title: 请酌情阅读
+  warning: 请在阅读前确认你是否真的对其感兴趣。
 statistics: 写下 {words} 字
 theme: '主题: ThoughtLite'

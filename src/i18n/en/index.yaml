@@ -44,15 +44,15 @@ sensitive:
   back: Return to list
   continue: I understand, continue reading
   description: >-
-    This content may contain explicit, violent, bloody, or emotionally
-    triggering material.
+    This content is a collection of personal musings and diary entries.
+    It holds no practical utility for the general reader.
   feed: >
-    <p>This content may contain explicit, violent, bloody, or emotionally
-    triggering material.</p>
+    <p>This content is a collection of personal musings and diary entries.
+    It holds no practical utility for the general reader.</p>
 
     <p>To read, please visit the <a href="{link}">original link</a>.</p>
   icon: Contains sensitive content
   title: Content Warning
-  warning: If this content might affect your mental health, please leave immediately!
+  warning: Please proceed only if you are genuinely interested in such personal narratives.
 statistics: Wrote {words} words
 theme: 'Theme: ThoughtLite'
