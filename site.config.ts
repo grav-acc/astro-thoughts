@@ -6,7 +6,7 @@ const config = siteConfig({
 	author: {
 		name: "CHEN ZHENG",
 		email: "contact@demosaic.org",
-		link: "https://demosaic.org"
+		link: "https://thomosaic.com"
 	},
 	description: "Every piece of thoughts begins as a mosaic.",
 	copyright: {

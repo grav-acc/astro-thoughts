@@ -3,6 +3,8 @@
 **Why Thought.Mosaic?**
 Mosaic is not just an art form; it is a metaphor. In this space, every opinion and every entry serves as a tiny "tile." Viewed individually, they might just be a game walkthrough, a reflection on existentialism, or a photo of a handmade craft. But when cemented together by time, and viewed from a step back, they piece together the world as I see it, and the complete picture of who I am.
 
+**Contact Me:** contact@demosaic.org
+
 ## My Composition
 
 **🎮 Gaming:**
