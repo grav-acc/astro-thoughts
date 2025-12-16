@@ -10,11 +10,11 @@ new:
   done: 完成！写作愉快！
   error: 发生错误
   jotting:
-    description: 简短的见解、零散的思考或日常的观察
-    name: 随笔
-  note:
     description: 具有深度，经过深思熟虑的长篇作品
-    name: 文记
+    name: 虚构
+  note:
+    description: 简短的见解、零散的思考或日常的观察
+    name: 便条
   open:
     error: 无法打开 VS Code
     message: 使用 VS Code 打开此文件？

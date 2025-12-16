@@ -10,10 +10,10 @@ new:
   done: Done! Happy writing!
   error: An error occurred
   jotting:
-    description: Brief insights, scattered thoughts or daily observations
-    name: Jotting
-  note:
     description: In-depth, carefully conceived long-form works
+    name: Fiction
+  note:
+    description: Brief insights, scattered thoughts or daily observations
     name: Note
   open:
     error: Failed to open VS Code
