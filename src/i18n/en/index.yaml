@@ -16,25 +16,25 @@ feed:
 home:
   heatmap:
     empty: No words
-    jotting: '{count} jottings'
-    note: '{count} fictions'
+    jotting: '{count} fictions'
+    note: '{count} notes'
   latest: Latest
   prefaces: Prefaces
 jotting:
-  empty: No jottings available
+  empty: No fictions available
   tag: Tag
 language: English
 navigation:
   about: About
   home: Home
-  jotting: Jotting
-  note: Fiction
+  jotting: Fiction
+  note: Note
   policy: Policy
   preface: Preface
   subscription: Subscription
 note:
   contents: Contents
-  empty: No fictions available
+  empty: No notes available
   series: Series
   tag: Tag
   top: To Top

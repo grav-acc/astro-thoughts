@@ -14,25 +14,25 @@ feed:
 home:
   heatmap:
     empty: 留白
-    jotting: 便条 {count} 则
-    note: 虚构 {count} 篇
+    jotting: 虚构 {count} 篇
+    note: 便条 {count} 则
   latest: 近况
   prefaces: 前言一览
 jotting:
-  empty: 暂无便条
+  empty: 暂无虚构
   tag: 标签
 language: 简体中文
 navigation:
-  about: 独白
+  about: 自白
   home: 封面
-  jotting: 便条
-  note: 虚构
+  jotting: 虚构
+  note: 便条
   policy: 条款
   preface: 前言
   subscription: 订阅
 note:
   contents: 索引
-  empty: 暂无虚构内容
+  empty: 暂无便条
   series: 专栏
   tag: 标签
   top: 回到顶部
