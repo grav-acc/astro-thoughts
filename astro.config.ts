@@ -40,7 +40,7 @@ import siteConfig from "./site.config";
 // https://astro.build/config
 export default defineConfig({
 	compressHTML: false,
-	site: "https://memo.demosaic.org",
+	site: "https://thomosaic.com",
 	trailingSlash: "never",
 	build: {
 		format: "file"
@@ -127,7 +127,7 @@ export default defineConfig({
 
 				// 严格要求无尾斜杠，也可以移除末尾斜杠
 				// 根路径不能变空
-				if (item.url.endsWith("/") && item.url !== "https://memo.demosaic.org/") {
+				if (item.url.endsWith("/") && item.url !== "https://thomosaic.com/") {
 					item.url = item.url.slice(0, -1);
 				}
 
